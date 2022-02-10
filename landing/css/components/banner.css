@@ -1,0 +1,13 @@
+.banner{
+  background-image: url('../../images/aguaviva1920.jpg');
+  min-height: 80vh;
+  color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner h1{
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}

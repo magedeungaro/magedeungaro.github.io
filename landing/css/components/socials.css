@@ -1,0 +1,33 @@
+.socials{
+  padding: 0;
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.socials li{
+  list-style-type: none;
+}
+
+.socials i{
+  color: white;
+  font-size: 50px;
+  transition: .5s;
+}
+
+.socials i:hover{
+  color: #911977;
+}
+
+@media (max-width: 780px) {
+
+  .socials i{
+    font-size: 30px;
+  }
+
+  .socials{
+    width: 100%;
+  }
+}
